@@ -250,7 +250,7 @@ def monitor_upbit_listings():
         send_telegram_message(f"❌ *Критична помилка!*\n```{str(e)[:200]}```")
     finally:
         session.close()
-
+#3232322
 
 if __name__ == "__main__":
     monitor_upbit_listings()
